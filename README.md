@@ -51,15 +51,13 @@ bash 01_preDFE.sh -a chr1_test.vcf.gz -b chr1_test.maf.gz -m test_named.mod -r r
 ```sh
 bash 02_catDFE.sh -a data/ -b class/ -p 0.15 -m 5000000 -t 32 -o outprefix
 ```
-bash 02_catDFE.sh -h for more details
-
-3. training 
-```sh
+3. train
+```python
 python3 03_trainAndPredict.py -i data/ -t sl -c 31 -m ./sl.model -j 100
 ```
-4. predicting 
-```sh
-python3 03_trainAndPredict.py -i data/ -t sl -c 31 -m ./sl.model -j 100
+4. predict
+```python
+python3 03_trainAndPredict.py -e -i ./data/ -t sl -c 31 -m ./sl.model -o sl.output
 ```
 
 
