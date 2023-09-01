@@ -1,7 +1,8 @@
 # Predict Functional effects using Categorical multi-omics data
 
 ## Framework
-![funcat](https://github.com/LipengKang/FunCat/assets/50673598/1f83142a-0fad-41a5-a6f1-815ec4c6ffe0)
+![funcat](https://github.com/LipengKang/FunCat/assets/50673598/9a75ed15-e8fd-4617-a009-ff9f3e560f63)
+
 ## Install
 * create conda environment
 ```sh
