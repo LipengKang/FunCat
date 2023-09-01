@@ -2,7 +2,7 @@
 predicting Functional effects using Categorical multi-omics data
 
 ## Install
-#create conda environment
+# create conda environment
 conda create -n funCat
 
 conda activate funCat
@@ -25,14 +25,15 @@ tar -zxvf rush_xxx.tar.gz
 
 mv rush /directoryInEnvironment
 
-#install DFE-alpha
-#Install dfe-alpha and est-sfs following their documents
+# install DFE-alpha
+
+Install dfe-alpha and est-sfs following their documents
 
 dfe-alpha:https://sourceforge.net/projects/dfe-alpha-k-e-w/
 
 est-sfs:https://sourceforge.net/projects/est-usfs/
 
-#download and uncompress data files
+# download and uncompress data files
 
 dfe-alpha data files:https://datashare.ed.ac.uk/handle/10283/2730
 
@@ -41,7 +42,7 @@ unzip DS_10283_2730.zip
 tar xvzf data.tar.gz
  
  
-#place compiled binary and data files to funCat src
+# place compiled binary and data files to funCat src
 
 mv dfe-alpha-release-2.16/prop_muts_in_s_ranges funcat_v1.0/src/dfe-alpha/prop_muts_in_s_ranges
 
