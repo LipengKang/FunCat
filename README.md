@@ -3,6 +3,8 @@
 ## Framework
 ![funcat](https://github.com/LipengKang/FunCat/assets/50673598/9a75ed15-e8fd-4617-a009-ff9f3e560f63)
 
+FunCat is a functional annotation scheme that classifies functionally similar elements across the genome into categories based on annotations from different omics sources. This creates genomic annotation barcodes, which can be used to infer purifying selection by comparing polymorphism within a species and divergence between species (relative to nearby neutrally evolving sites) across segments. Machine learning is then used to improve the resolution of the annotations, so that segments of the genome and variants can be annotated with fitness consequence.
+
 ## Install
 * create conda environment
 ```sh
