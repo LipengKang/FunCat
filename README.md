@@ -1,5 +1,10 @@
-# FunCat
+![funcat](https://github.com/LipengKang/FunCat/assets/50673598/1f83142a-0fad-41a5-a6f1-815ec4c6ffe0)# FunCat
 predicting Functional effects using Categorical multi-omics data
+
+## Framework
+<p align = "center">
+<img src = "framework.png">
+</p>
 
 ## Install
 * create conda environment
